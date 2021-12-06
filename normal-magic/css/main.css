@@ -1,0 +1,217 @@
+body{
+  color: white;
+  background-color: #08080A;
+  /*background:url("");*/
+}
+
+
+
+/*########################################
+############### HEADER #################
+########################################*/
+
+header{
+  align-items: center;
+  display: flex;
+  font-family: 'Mrs.Sheppards',cursive;
+  justify-content: space-between;
+  top: inherit;
+  left: 0;
+  bottom:inherit;
+  right: 0;
+  position: fixed;
+}
+
+
+.main-logo{
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.nav-elements-container{
+  display:block;
+  opacity: 1;
+  margin-right:50px;
+}
+.nav-elements{
+  color: white;
+  margin: 0 15px;
+  opacity: 1;
+  text-decoration: none;
+}
+.nav-elements:hover{
+  cursor: pointer;
+}
+.nav-elements:last-child{
+  margin-right: 40px;
+}
+
+.disable-click{
+  display: none;
+  pointer-events: none;
+}
+
+/*########################################
+################# MAIN ###################
+#########################################*/
+.landing-profile{
+  align-items: center;
+  background-image: url("../images/normal-magic/normal-magic-1.jpg");
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.parallax--bg{
+  transition: 0.0s ease;
+}
+
+.viewing-container{
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 90vh;
+  margin:17vh 0 0 10vw;
+  /*justify-content: space-around;*/
+  text-align:left;
+  margin-right: 10%;
+  width:30vw;
+}
+
+#showSynopsis{
+  opacity: 1;
+}
+
+.clarice-logo{
+  width: 9vw;
+  margin-bottom: 3vh;
+}
+
+.show-title{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:50px;
+  margin:20px 0;
+}
+
+.design-description{
+  font-size: 20px;
+}
+
+.view-more-button{
+  border: 3px solid white;
+  font-size: 25px;
+  font-weight: 700;
+  height: 40px;
+  margin-top: 25px;
+  text-align: center;
+  width:15vw;
+}
+
+.profile-image{
+  width:30vw;
+}
+/*########################################
+############  DETAILS SECTION ##############
+#########################################*/
+
+.details-container{
+  align-items: center;
+  background-color: #e6e6e6;;
+  color:black;
+  display: flex;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  height: 60vh;
+  justify-content: space-around;
+}
+/*.show-details-container{
+  margin: 0 0 0 10vw;
+}*/
+.show-details-container-left{
+  background-color:darkblue;
+  width:45vw;
+}
+.show-details{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color:black;
+}
+
+
+/*############# Gallery/Flickity #############*/
+.gallery-container{
+  height: 97vh;
+  margin: 0 0 7vh 0;
+  width: 100%;
+}
+.carousel-cell{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+.gallery-landscape img{
+  object-fit: contain;
+  height:auto;
+  width:100%;
+}
+.gallery-portrait img{
+  height: 100vh;
+  object-fit: contain;
+  width:auto;
+}
+
+/*############# CALL TO ACTION #############*/
+.cta-section{
+  align-items: center;
+  background-color: #A0471F;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+}
+.cta-question{
+  color: black;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin:0 30px 0 0;
+}
+.contact-me-button{
+  border: 3px solid black;
+  color:black;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  height: 40px;
+  text-align: center;
+  width:15vw;
+}
+
+/*###################################
+############## Footer #############
+###################################*/
+
+footer{
+  align-items: center;
+  background-color: #e6e6e6;
+  display:flex;
+  flex-direction: column;
+  height:20vh;
+  justify-content: center;
+}
+
+.footer-logo{
+  color:black;
+  font-family: 'Mrs.Sheppards',cursive;
+  font-size: 24px;
+}
+
+.social-media-elements-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 15vw;
+}
+.social-media-elements{
+  width: 2vw;
+}

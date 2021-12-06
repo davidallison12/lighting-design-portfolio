@@ -1,0 +1,351 @@
+/*David Allison Lighting
+Landing Page */
+
+
+
+/*EACH BACK GROUND IMAGE USED IN LIGHTING DESIGN PORTION */
+.secondhand-bg-2{
+  background-image: url("../images/secondhand-hope/secondhand-hope-1.jpg");
+}
+
+.normal-magic-bg-2{
+  background-image: url("../images/normal-magic/normal-magic-6.jpg");
+}
+
+.bozo-bg-2{
+  background-image: url("../images/bozo/bozo-2.jpg");
+}
+
+.crooked-bg{
+  background-image: url("../images/crooked/crooked-1.jpg");
+}
+.looking-glass-bg{
+  background-image: url("../images/through-the-looking-glass/through-the-looking-glass-2.jpg");
+}
+.sweet-charity-bg{
+  background-image: url("../images/sweet-charity.png");
+}
+.deadman-bg{
+  background-image: url("../images/deadmans.png");
+}
+.spring-awakening-bg{
+  background-image: url("../images/spring-awakening.png");
+}
+.raisin-bg{
+  background-image: url("../images/raisin.jpg")
+}
+
+
+
+body{
+  color: white;
+  background-color: #08080A;
+  /*background:url("");*/
+}
+
+/*########################################
+############### HEADER #################
+########################################*/
+
+header{
+  align-items: center;
+  display: flex;
+  font-family: 'Mrs.Sheppards',cursive;
+  justify-content: space-between;
+  top: inherit;
+  left: 0;
+  bottom:inherit;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.main-logo{
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.nav-elements-container{
+  display: block;
+  opacity:1;
+  margin-right:50px;
+}
+.nav-elements{
+  color: white;
+  margin: 0 15px;
+  opacity: 1;
+  text-decoration: none;
+}
+.nav-elements:hover{
+  cursor: pointer;
+}
+.nav-elements:last-child{
+  margin-right: 40px;
+}
+.disable-click{
+  display: none;
+  pointer-events: none;
+}
+
+.logo-fade-out{
+  opacity: 1;
+  transition: 1s ease-in-out;
+}
+
+.logo-fade-out-active{
+  opacity:0;
+}
+
+/*###################################################################
+################# MAIN/FLICKITY FLICKITY CAROUSEL ###################
+#####################################################################*/
+
+.landing-profile{
+  align-items: center;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.viewing-container{
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 87vh;
+  margin: 6vh 0 0 4vw;
+  width:100vw;
+}
+
+.carousel-element-container{
+  align-items: flex-end;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/*EACH BACK GROUND IMAGE USED IN CAROUSEL */
+.secondhand-bg{
+  background-image: url("../images/secondhand-hope/secondhand-hope-5.jpg");
+}
+
+.normal-magic-bg{
+  background-image: url("../images/normal-magic/normal-magic-1.jpg");
+}
+
+.bozo-bg{
+  background-image: url("../images/bozo/bozo-4.jpg");
+}
+
+
+
+/*This is the container is the part that carousels. Each image  and details will be contained in. */
+.flickity-details-container{
+  align-items: flex-end;
+  background-color: rgba(64,64,64,0.6);
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: center;
+  text-align: right;
+}
+.detail-reveal-element{
+  margin-right:5% ;
+}
+
+.show-title{
+  font-size:50px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.show-description{
+  font-size: 18px;
+  line-height: 1.2;
+}
+.show-view-more{
+  /*color:white;*/
+  cursor:pointer;
+  font-size: 23px;
+  text-decoration: underline;
+}
+.view-more-anchor{
+  color: white;
+}
+/*###########################################
+############  ABOUT ME SECTION ##############
+#############################################*/
+
+.about-me-container{
+  align-items: center;
+  background-color: #e6e6e6;
+  color:black;
+  display: flex;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  height: 90vh;
+  justify-content: space-around;
+  margin-left:4vw;
+  margin-top: 0.5vh;
+}
+
+.about-me-image-container{
+  height: 70%;
+}
+.about-me-image{
+  height: 100%;
+}
+
+.about-me-details-container{
+  height: 80%;
+  width: 40vw;
+}
+
+.about-me-name{
+  font-size: 30px;
+}
+.about-me-bio{
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*###########################################
+############  GALLERY SECTION ##############
+#############################################*/
+
+/*############## GALLERY POSITIONING #############*/
+.gallery-main-section{
+  color: white;
+  font-family:'Open Sans Condensed', sans-serif;
+  margin: 0 2vw 7vh 2vw;
+  width: 100%;
+}
+
+
+
+.lighting-design-gallery-container{
+  height: 130vh;
+  width:100%;
+}
+.gallery-title{
+  font-size: 40px;
+  font-weight: 700;
+}
+.gallery-container{
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/*Gallery Images with overlay that comes in when the mouse is hovered over the image*/
+.gallery-images{
+  background-position: center;
+  background-size: cover;
+  /*border: 0.2px solid #e6e6e6;*/
+  border-radius:5px;
+  cursor: pointer;
+  height: 55vh;
+  margin: 2vh 1vw;
+  width: 22vw;
+}
+
+.image-overlay{
+  align-items: center;
+  background: white;
+  color: black;
+  display: flex;
+  font-family: 'Mrs.Sheppards', cursive;
+  font-size: 20px;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.opacity-effect{
+  opacity: 0
+}
+.opacity-effect:hover{
+  opacity: 0.6
+}
+
+/*EACH BACK GROUND IMAGE USED IN LIGHTING DESIGN PORTION */
+.secondhand-bg-2{
+  background-image: url("../images/secondhand-hope/secondhand-hope-1.jpg");
+}
+
+.normal-magic-bg-2{
+  background-image: url("../images/normal-magic/normal-magic-6.jpg");
+}
+
+.bozo-bg-2{
+  background-image: url("../images/bozo/bozo-2.jpg");
+}
+
+.crooked-bg{
+  background-image: url("../images/crooked/crooked-1.jpg");
+}
+.looking-glass-bg{
+  background-image: url("../images/through-the-looking-glass/through-the-looking-glass-2.jpg");
+}
+.sweet-charity-bg{
+  background-image: url("../images/sweet-charity.png");
+}
+.deadman-bg{
+  background-image: url("../images/deadmans.png");
+}
+.spring-awakening-bg{
+  background-image: url("../images/spring-awakening.png");
+}
+.raisin-bg{
+  background-image: url("../images/raisin.jpg")
+}
+
+/*############# ASSISTANT DESIGN STYLES #########*/
+/*Because I have essentially a fixed height on the gallery images*/
+
+.assistant-design-gallery-container{
+  /*height: 30%;*/
+  width:100vw;
+  margin-top: 5vh;
+}
+
+
+/*I intend to use waypoints in the future here to fade the gallery in and out, but it loads too slow right now to attempt that. */
+.gallery-effect{
+  opacity: 0;
+  transition: 1s ease-in-out;*/
+}
+
+.gallery-effect-active{
+  opacity: 1;
+}
+/*###################################
+############## Footer #############
+###################################*/
+
+footer{
+  align-items: center;
+  background-color: #e6e6e6;
+  display:flex;
+  flex-direction: column;
+  height:20vh;
+  justify-content: center;
+}
+
+.footer-logo{
+  color:black;
+  font-family: 'Mrs.Sheppards',cursive;
+  font-size: 24px;
+}
+
+.social-media-elements-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 15vw;
+}
+.social-media-elements{
+  width: 2vw;
+}
