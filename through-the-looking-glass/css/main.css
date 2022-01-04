@@ -1,0 +1,167 @@
+body{
+  color: white;
+  background-color: black;
+  /*background:url("");*/
+}
+
+
+
+/*########################################
+############### HEADER #################
+########################################*/
+
+header{
+  align-items: center;
+  display: flex;
+  font-family: 'Mrs.Sheppards',cursive;
+  justify-content: space-between;
+}
+
+
+.main-logo{
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.nav-elements-container{
+  margin-right:50px;
+}
+.nav-elements{
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.nav-elements:hover{
+  cursor: pointer;
+}
+.nav-elements:last-child{
+  margin-right: 40px;
+}
+
+/*########################################
+################# MAIN ###################
+#########################################*/
+.landing-profile{
+  align-items: center;
+  background: url("../images/through-the-looking-glass/through-the-looking-glass-5.jpg");
+  background-size: 100% 100%;
+  display:flex;
+  justify-content: flex-end;
+}
+.viewing-container{
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 90vh;
+  margin:10vh 10vw 0 0;
+  /*justify-content: space-around;*/
+  text-align:left;
+  width:30vw;
+}
+
+.clarice-logo{
+  width: 9vw;
+  margin-bottom: 5vh;
+}
+
+.show-title{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:50px;
+  margin:20px 0;
+}
+
+.design-description{
+  font-size: 20px;
+}
+
+.view-more-button{
+  border: 3px solid white;
+  font-size: 25px;
+  font-weight: 700;
+  height: 40px;
+  margin-top: 25px;
+  text-align: center;
+  width:15vw;
+}
+.welcome-directions{
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 40px;
+  padding-top: 70px;
+}
+
+
+.profile-image{
+  margin: 0 10vw 0 0;
+  padding-bottom: 6.5vh;
+  width:30vw;
+}
+/*########################################
+############ HIDDEN SECTION ##############
+#########################################*/
+
+.hidden-container{
+  align-items: center;
+  background-color: white;
+  /*color:black;*/
+  display: flex;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  height: 90vh;
+  justify-content: space-between;
+}
+.show-details-container{
+  margin: 0 0 0 10vw;
+}
+
+.show-details{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  color:black;
+}
+.design-description{
+
+}
+
+/*############# CALL TO ACTION #############*/
+.cta-section{
+  align-items: center;
+  display: flex;
+  height: 13vh;
+  justify-content: center;
+}
+.cta-question{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin:0 30px 0 0;
+}
+.contact-me-button{
+  border: 3px solid black;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  height: 40px;
+  text-align: center;
+  width:15vw;
+}
+
+/*###################################
+############## Footer #############
+###################################*/
+
+footer{
+  align-items: center;
+  background-color: black;
+  display:flex;
+  height:20vh;
+  justify-content: center;
+}
+
+.social-media-elements-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 15vw;
+}
+.social-media-elements{
+  width: 2vw;
+}
